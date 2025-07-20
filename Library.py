@@ -6,7 +6,7 @@ import tensorflow as tf
 import os
 from tensorflow import keras
 from tensorflow.keras import layers
-from tensorflow.python.keras.layers import Dense, Flatten
+from tensorflow.python.keras.layers import Dense
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import Adam
 
