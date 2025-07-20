@@ -1,1 +1,5 @@
-# Kidney-Disease-Detection-System
+### Architecture overview of KDDS
+This architecture blends the power of convolutional neural networks (CNNs) with the global modeling capabilities of Transformers, creating a robust hybrid that is highly effective for image classification tasks. It begins with a convolutional stem to efficiently extract low-level spatial features, followed by a patch embedding layer that segments the image into fixed-size patches and projects them into an embedding space. These patch embeddings are enhanced with learnable positional encodings to retain spatial structure. Multiple transformer blocks are then stacked, providing powerful long-range dependencies. The architecture further includes hierarchical downsampling and additional transformer layers for deeper representation learning. Finally, a global average pooling and dense layers perform classification into the target categories.
+
+This design captures both local and global patterns, making it particularly effective in domains like medical imaging, satellite imagery, and fine-grained visual recognition where both fine textures and contextual information are critical.
+<img width="655" height="722" alt="image" src="https://github.com/user-attachments/assets/ddc60c61-cf9f-4720-8382-f16075a7699a" />
